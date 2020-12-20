@@ -1,0 +1,29 @@
+include_directories(${CMAKE_CURRENT_LIST_DIR})
+
+add_executable(myApp ${CMAKE_CURRENT_LIST_DIR}/main.cpp
+                 ${CMAKE_CURRENT_LIST_DIR}/atom_set.hpp
+                 ${CMAKE_CURRENT_LIST_DIR}/valuation.cpp
+                 ${CMAKE_CURRENT_LIST_DIR}/valuation.hpp
+                 ${CMAKE_CURRENT_LIST_DIR}/base_formula.cpp
+                 ${CMAKE_CURRENT_LIST_DIR}/base_formula.hpp
+                 ${CMAKE_CURRENT_LIST_DIR}/atomic_formula.cpp
+                 ${CMAKE_CURRENT_LIST_DIR}/atomic_formula.hpp
+                 ${CMAKE_CURRENT_LIST_DIR}/constant.cpp
+                 ${CMAKE_CURRENT_LIST_DIR}/constant.hpp
+                 ${CMAKE_CURRENT_LIST_DIR}/unary_connective.cpp
+                 ${CMAKE_CURRENT_LIST_DIR}/unary_connective.hpp
+                 ${CMAKE_CURRENT_LIST_DIR}/not.cpp
+                 ${CMAKE_CURRENT_LIST_DIR}/not.hpp
+                 ${CMAKE_CURRENT_LIST_DIR}/binary_connective.cpp
+                 ${CMAKE_CURRENT_LIST_DIR}/binary_connective.hpp
+                 ${CMAKE_CURRENT_LIST_DIR}/and.cpp
+                 ${CMAKE_CURRENT_LIST_DIR}/and.hpp
+                 ${CMAKE_CURRENT_LIST_DIR}/or.cpp
+                 ${CMAKE_CURRENT_LIST_DIR}/or.hpp
+                 ${CMAKE_CURRENT_LIST_DIR}/iff.cpp
+                 ${CMAKE_CURRENT_LIST_DIR}/iff.hpp
+                 ${CMAKE_CURRENT_LIST_DIR}/imp.cpp
+                 ${CMAKE_CURRENT_LIST_DIR}/imp.hpp
+                 ${CMAKE_CURRENT_LIST_DIR}/atom.cpp
+                 ${CMAKE_CURRENT_LIST_DIR}/atom.hpp
+                 ${CMAKE_CURRENT_LIST_DIR}/propositional_logic.hpp)

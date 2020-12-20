@@ -1,0 +1,3 @@
+/home/dusan/Desktop/logic/CMakeFiles/rebuild_cache.dir
+/home/dusan/Desktop/logic/CMakeFiles/myApp.dir
+/home/dusan/Desktop/logic/CMakeFiles/edit_cache.dir
