@@ -16,3 +16,8 @@ bool or_operator::eval(const valuation &val) const
 
   return f1->eval(val) || f2->eval(val);
 }
+
+formula or_operator::substitute(const formula &op1, const formula &op2) const
+{
+  return substitute_impl<or_operator>(op1, op2);
+}

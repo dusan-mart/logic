@@ -28,6 +28,8 @@ public:
   bool is_consequence(const formula &f) const;
   bool is_equivalent(const formula &f) const;
   void print_truth_table(std::ostream &out) const;
+
+  virtual formula substitute(const formula &op1, const formula &op2) const = 0;
 };
 
 bool operator==(const formula &left, const formula &right);

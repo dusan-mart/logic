@@ -16,3 +16,8 @@ bool imp::eval(const valuation &val) const
 
   return !f1->eval(val) || f2->eval(val);
 }
+
+formula imp::substitute(const formula &op1, const formula &op2) const
+{
+  return substitute_impl<imp>(op1, op2);
+}
